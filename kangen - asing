@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangen yang Asing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f5d9d9, #f7c6c6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            max-width: 500px;
+            text-align: center;
+            animation: fadeIn 2s ease-out forwards;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #c94f4f;
+            opacity: 0;
+            animation: fadeIn 2s ease-out forwards;
+            animation-delay: 0.5s;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+            white-space: pre-line;
+            opacity: 0;
+            animation: fadeIn 2s ease-out forwards;
+            animation-delay: 1.5s;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Kangen yang Asing</h1>
+        <p>
+Dulu kita pernah sedekat nadi,  
+sekarang rasanya sejauh langit dan bumi.  
+Kita nggak lagi saling sapa,  
+nggak lagi saling cerita.  
+Tapi jujur, di hati ini…  
+kangen itu nggak pernah pergi.  
+
+Kangen suara kamu, kangen tawa kamu,  
+kangen masa di mana kita nggak asing
